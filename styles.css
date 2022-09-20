@@ -33,33 +33,31 @@ h1 {
   justify-content: center;
 }
 
-.login {
-  height: 70%;
-  width: 60%;
-}
-
 .right {
+  background-image: url(https://images4.alphacoders.com/246/246484.jpg);
+  background-position: center;
+  background-size: 150%;
   display: flex;
   flex: 1;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  overflow: hidden
 }
-.right img {
-  min-width: 100%;
-  min-height: 100%
+
+.login {
+  height: 70%;
+  width: 60%;
 }
 
 .box {
-  position: absolute;
+  flex: 1;
   background-color: #010326;
   opacity: 0.7;
+  filter: blur(2px);
   border-radius: 2rem;
-  margin-top: 38rem;
-  padding: 1rem;
-  width: 48rem;
-  height: 10rem;
+  margin-top: 70%;
+  margin-bottom: 5%;
+  width: 90%;
 }
 
 .right > p {
@@ -67,10 +65,8 @@ h1 {
   font-family: 'Amatic SC', cursive;
   color: white;
   font-size: 3.5rem;
-  margin-top: 42rem;
-  padding: 1rem;
-  width: 48rem;
-  height: 10rem;
+  margin-top: 33%;
+  width: 39%;
 }
 
 input[type=email], input[type=password] {
@@ -93,8 +89,6 @@ input[type=submit] {
   margin-top: 5%;
   cursor: pointer;
 }
-
-
 
 #pass-option {
   display: flex;
